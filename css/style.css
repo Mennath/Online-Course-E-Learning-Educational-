@@ -1,0 +1,1141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: rgba(255, 255, 255, 1);
+     --main-color:rgba(38, 38, 38, 1);
+     --text-body: rgba(255, 149, 0, 1);   
+}
+/* p ,h6 ,h3 ,h4 ,h5 ,a ,button ,.imp {
+    
+} */
+body{
+    background: rgba(252, 252, 253, 1);
+
+}
+
+
+.Free-Courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 55px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* margin-right: 10px; */
+    /* margin: 20px 30px 0px 30px; */
+    background:var(--text-body);
+    color: var(--header-color);
+
+    h3 {
+        
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    i {
+        margin-left: 4px;
+    }
+}
+
+.contaner {
+    padding: 10px 100px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    width: 90%;
+    height: 99px;
+   /* margin-right: 40px; */
+    margin: 2px 10px 2px 48px;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-around;
+
+    .home2 {
+        width: 70%;
+        height: 55px;
+        margin-top: 25px;
+        margin-left: 20px;
+
+        a {
+            /* background: rgba(241, 241, 243, 1); */
+            width: 100px;
+            height: 70px;
+            border-radius: 8px;
+            padding-top: 14px;
+            padding-right: 24px;
+            padding-bottom: 14px;
+            /* padding-left: 30px; */
+            text-decoration: none;
+            
+            font-size: 18px;
+            line-height: 150%;
+            color: rgba(38, 38, 38, 1);
+
+
+        }
+    }
+}
+
+.home2 a:nth-child(1) {
+    text-align: center;
+    background: rgba(241, 241, 243, 1);
+    padding-left: 10px;
+}
+
+.home3 {
+    width: 30%;
+    text-align: center;
+
+}
+
+a {
+    width: 30%;
+    padding-top: 14px;
+    text-align: center;
+    /* padding-right: 34px; */
+    padding-bottom: 14px;
+    
+    font-size: 18px;
+
+}
+
+.home3 button {
+    width: 30%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    /* text-align: center; */
+    margin-left: 10px;
+    
+    font-size: 18px;
+    background: rgba(255, 149, 0, 1);
+    border-radius: 8px;
+}
+.home3 svg{
+    display: none;
+}
+
+.Unlock{
+    width: 100%;
+height: 337px;
+display: flex;
+gap: 20px;
+flex-direction: column;
+align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    gap: 10px;
+    background-color:var(--header-color);
+    svg{
+        width: 40px;
+        margin-left: 3px;
+        text-align: center;
+    }
+    span{
+        color: var(--text-body);
+    }
+    h4{
+        
+font-size: 28px;
+text-align: center;
+color: rgba(26, 26, 26, 1);
+
+}
+}
+.Unlock1{
+    h3{
+        
+font-size: 26px;
+text-align: center;
+color: var(--main-color);
+margin-bottom: 10px;
+
+    }
+    p{
+        
+font-size: 13px;
+text-align: center;
+color: var(--main-color);
+
+    }
+}
+.Unlock2{
+    display: flex;
+    width: 366px;
+    margin-top: 20px;
+height: 53px;
+gap: 12px;
+justify-content: center;
+
+}
+.Unlock2 button:nth-child(1){
+padding-top: 18px;
+padding-right: 24px;
+padding-bottom: 18px;
+padding-left: 24px;
+border-radius: 8px;
+background-color: var(--text-body);
+color: var(--header-color);
+
+}
+.Unlock2 button:nth-child(2){
+padding-top: 18px;
+padding-right: 24px;
+padding-bottom: 18px;
+padding-left: 24px;
+border-radius: 8px;
+background-color: #fff;
+color: var(--main-color);
+
+}
+.amazon{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    background-color: var(--header-color);
+    .icons1{
+        width: 15%;
+    }
+}
+.image img{
+    height: 700px;
+border-radius: 10px;
+border-width: 16px;
+
+}
+.Benefits1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    h3{
+        
+font-size: 48px;
+    }
+    p{
+        
+        font-size: 15px;
+        color: var(--main-color);
+
+    }
+}
+.Benefitstwo{
+    margin-top: 40px;
+}
+.Benefitstwo button{
+    /* width: 120px; */
+height: 43px;
+border-radius: 8px;
+border-width: 1px;
+padding-top: 18px;
+padding-right: 24px;
+padding-bottom: 18px;
+padding-left: 24px;
+background-color: var(--header-color);
+
+}
+.Benefits2{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        /* width: 519px; */
+/* height: 437px; */
+border-radius: 12px;
+padding: 50px;
+}
+.Benefits22{
+    background-color: var(--header-color);
+    height: 237px;
+    .imp{
+        
+      /* min-width: -webkit-fill-available; */
+      color: var(--main-color);
+      /* margin-right: -10px; */
+      text-align: right;
+    }
+    h6{
+        
+font-size: 18px;
+line-height: 150%;
+color: rgba(51, 51, 51, 1);
+margin-bottom: 10px;
+    }
+    p{
+        
+font-size: 14px;
+color: rgba(76, 76, 77, 1);
+margin-bottom: 20px;
+
+    }
+}
+.flexbig{
+    display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px;
+        .Design{
+            width: 500px;
+            background-color: var(--header-color);
+            /* background-color: black; */
+        }
+        .Design img{
+           width: 450px;
+           height: 300px;
+           /* margin-left: 20px; */
+           margin: 30px;
+           border-radius: 8px;
+           /* text-align: center; */
+        }
+
+}
+.webone{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    button{
+        width: 95px;
+border-radius: 8px;
+border-width: 1px;
+padding-top: 10px;
+padding-right: 16px;
+padding-bottom: 10px;
+padding-left: 16px;
+background-color: var(--header-color);
+color: rgba(76, 76, 77, 1);
+    }
+    h5{
+        
+        color: var(--main-color);
+font-style: Medium;
+font-size: 20px;
+    }
+}
+.webtwo{
+    margin-top: 20px;
+    h3{
+        
+font-size: 24px;
+margin-bottom: 20px;
+    }
+    p{
+        
+font-size: 18px;
+    }
+}
+.webthree button{
+    width: 470px;
+    margin-top: 20px;
+height: 53px;
+border-radius: 8px;
+border-width: 1px;
+padding-top: 18px;
+padding-right: 24px;
+padding-bottom: 18px;
+padding-left: 24px;
+background: rgba(247, 247, 248, 1);
+
+
+}
+/*///////////////////// Our-Testimonials1 ///////////////////////////// */
+.Our-Testimonials1{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+.Our-Testimonialsone{
+  width: 483px;
+height: 304px;
+border-radius: 12px;
+border-width: 1px;
+background-color: var(--header-color);
+p{
+    
+font-weight: 400;
+font-size: 18px;
+margin-bottom: 30px;
+color: rgba(51, 51, 51, 1);
+
+}
+h6{
+    
+font-weight: 600;
+font-size: 18px;
+color: rgba(51, 51, 51, 1);
+
+}
+.Our-Testimonials3 button{
+    width: 142px;
+height: 53px;
+border-radius: 8px;
+border-width: 1px;
+padding-top: 18px;
+padding-right: 24px;
+padding-bottom: 18px;
+padding-left: 24px;
+background: rgba(247, 247, 248, 1);
+
+
+}
+}
+        img{
+            width: 60px;
+            height: 60px;
+        }
+}
+.Our-Testimonialstwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Our-Testimonials2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+
+  
+    /* =========================
+       PRICING SECTION    */
+
+    .pricing-section {
+      width: 100%;
+      min-height: 100vh;
+      background: #fff;
+    }
+
+       /* HEADER */
+
+    .pricing-header {
+      height: 115px;
+      background: #f7f7f7;
+      padding: 25px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .header-content h1 {
+      font-size: 27px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #2b2b2b;
+      margin-bottom: 7px;
+    }
+
+    .header-content p {
+      max-width: 545px;
+      font-size: 9.5px;
+      line-height: 1.5;
+      color: #555;
+    }
+@media (max-width: 600px) {
+
+    .Our-Testimonials1 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .Our-Testimonialsone {
+        width: 100%;
+        min-height: 250px;
+
+        padding: 20px;
+    }
+
+    .Our-Testimonialsone p {
+        font-size: 14px;
+        line-height: 1.5;
+
+        margin-bottom: 20px;
+    }
+
+    .Our-Testimonialsone h6 {
+        font-size: 15px;
+    }
+
+    .Our-Testimonials1 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Our-Testimonialstwo {
+        gap: 10px;
+    }
+
+    .Our-Testimonials3 button {
+        width: 130px;
+        height: 48px;
+
+        padding: 14px 18px;
+    }
+
+
+    /* Pricing */
+
+    .pricing-header {
+        min-height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-content h1 {
+        font-size: 24px;
+    }
+
+    .header-content p {
+        max-width: 100%;
+        font-size: 9px;
+    }
+
+    .pricing-content {
+        width: 100%;
+
+        padding: 25px 15px;
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+}
+
+
+/*  VERY SMALL PHONES  */
+
+@media (max-width: 400px) {
+
+    .Our-Testimonialsone {
+        padding: 16px;
+    }
+
+    .Our-Testimonialsone p {
+        font-size: 13px;
+    }
+
+    .Our-Testimonialsone h6 {
+        font-size: 14px;
+    }
+
+    .Our-Testimonials3 button {
+        width: 120px;
+        height: 45px;
+
+        padding: 12px 15px;
+    }
+
+    .pricing-content {
+        padding: 20px 10px;
+    }
+}
+
+
+    /*       MONTHLY / YEARLY TOGGLE     */
+
+    .billing-toggle {
+      background: #fff;
+      border-radius: 5px;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      margin-top: 5px;
+      min-width: 139px;
+      height: 42px;
+    }
+
+    .billing-toggle button {
+      border: none;
+      background: transparent;
+      height: 30px;
+      padding: 0 14px;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 9px;
+      color: #292929;
+      cursor: pointer;
+    }
+
+    .billing-toggle .active {
+      background: #ff9200;
+      color: white;
+    }
+
+    /*  CARDS AREA*/
+
+    .pricing-content {
+      width: 100%;
+      padding: 42px 68px 44px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    /*PRICING CARD*/
+
+    .pricing-card {
+      width: 375px;
+      min-height: 556px;
+      border: 1px solid #eeeeee;
+      border-radius: 7px;
+      background: #fff;
+      padding: 26px 16px 15px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Plan title */
+
+    .plan-name {
+      width: 100%;
+      height: 33px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: #fffaf2;
+      border: 1px solid #ffebd2;
+      border-radius: 4px;
+
+      font-size: 12px;
+      font-weight: 400;
+      color: #262626;
+    }
+
+    /* =========================
+       PRICE
+    ========================== */
+
+    .price {
+      height: 83px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .price strong {
+      font-size: 43px;
+      line-height: 1;
+      font-weight: 600;
+      color: #262626;
+    }
+
+    .price span {
+      font-size: 10px;
+      color: #333;
+      align-self: flex-end;
+      margin-bottom: 24px;
+    }
+
+    /* =========================
+       FEATURES BOX
+    ========================== */
+
+    .features {
+      flex: 1;
+      border: 1px solid #eeeeee;
+      border-radius: 7px;
+      padding: 18px 36px 14px;
+    }
+
+    .features-title {
+      text-align: center;
+      font-size: 11px;
+      font-weight: 400;
+      color: #222;
+      margin-bottom: 17px;
+    }
+
+    /* =========================
+       FEATURE ROW
+    ========================== */
+
+    .feature {
+      height: 33px;
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      padding: 0 7px;
+      margin-bottom: 10px;
+      font-size: 9px;
+      color: #4d4d4d;
+      white-space: nowrap;
+    }
+
+    .feature-icon {
+      width: 18px;
+      height: 18px;
+      min-width: 18px;
+      margin-right: 7px;
+
+      border-radius: 4px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .feature.available .feature-icon {
+      background: #fff3e2;
+      color: #333;
+    }
+
+    .feature.unavailable .feature-icon {
+      background: #fff;
+      border: 1px solid #eeeeee;
+      color: #333;
+    }
+
+    /* =========================
+       BUTTON
+    ========================== */
+
+    .get-started {
+      width: 100%;
+      height: 36px;
+      margin-top: 14px;
+
+      border: none;
+      border-radius: 0 0 4px 4px;
+
+      background: #ff9200;
+      color: #fff;
+
+      font-family: inherit;
+      font-size: 9px;
+      font-weight: 500;
+
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .get-started:hover {
+      background: #e98200;
+    }
+
+    /* =========================
+       RESPONSIVE    */
+
+    @media (max-width: 850px) {
+      .pricing-header {
+        height: auto;
+        padding: 25px;
+        gap: 20px;
+        flex-direction: column;
+      }
+
+      .billing-toggle {
+        align-self: flex-end;
+      }
+
+      .pricing-content {
+        padding: 30px 25px;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .pricing-card {
+        width: min(100%, 375px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .pricing-header {
+        padding: 20px;
+      }
+
+      .header-content h1 {
+        font-size: 24px;
+      }
+
+      .header-content p {
+        font-size: 9px;
+      }
+
+      .billing-toggle {
+        align-self: flex-start;
+      }
+
+      .pricing-content {
+        padding: 25px 15px;
+      }
+
+      .pricing-card {
+        padding: 20px 14px 14px;
+      }
+
+      .features {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .feature {
+        font-size: 8.5px;
+      }
+    }
+ 
+
+
+/*     MOBILE RESPONSIVE DESIGN  */
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Free courses banner */
+    .Free-Courses {
+        width: calc(100% - 30px);
+        height: auto;
+        min-height: 55px;
+        margin: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .Free-Courses h3 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* Main container */
+    .contaner {
+        width: 100%;
+        padding: 10px 15px;
+        gap: 25px;
+    }
+
+    /* Navigation */
+    .home {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 10px 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home .home2 {
+       display: none;
+    }
+
+    /* .home2 a {
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        padding: 10px 12px;
+    }
+
+    .home2 a:nth-child(1) {
+        padding-left: 10px;
+    } */
+
+    .home3 {
+        width: auto;
+        display: flex;
+        align-items: center;
+        a{
+            font-size: 11px;
+        }
+    }
+
+    .home3 button {
+        width: auto;
+        margin-left: 5px;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .home3 svg {
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+
+    /* Unlock section */
+    .Unlock {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 20px 10px;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo svg {
+        width: 30px;
+    }
+
+    .logo h4 {
+        font-size: 20px;
+    }
+
+    .Unlock1 h3 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .Unlock1 p {
+        font-size: 13px;
+        line-height: 1.6;
+        padding: 0 10px;
+    }
+
+    .Unlock2 {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    .Unlock2 button:nth-child(1),
+    .Unlock2 button:nth-child(2) {
+        flex: 1;
+        padding: 13px 12px;
+        font-size: 13px;
+    }
+
+    /* Amazon / icon section */
+   .amazon .icons1:nth-child(4),
+    .amazon .icons1:nth-child(5),
+    .amazon .icons1:nth-child(6),
+    .amazon .icons1:nth-child(7) {
+        display: none;
+    } 
+
+    .amazon .icons1 {
+        width: 25%;
+    }
+
+    /* Images */
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        border-radius: 8px;
+    }
+
+    /* Benefits heading */
+    .Benefits1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Benefits1 h3 {
+        font-size: 32px;
+    }
+
+    .Benefits1 p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .Benefitstwo {
+        margin-top: 10px;
+    }
+
+    .Benefitstwo button {
+        height: auto;
+        padding: 12px 18px;
+    }
+
+    /* Benefits cards */
+    .Benefits2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .Benefits22 {
+        width: 100%;
+        height: auto;
+        min-height: 180px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .Benefits22 h6 {
+        font-size: 17px;
+    }
+
+    .Benefits22 p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .Benefits22 .imp {
+        text-align: right;
+    }
+
+    /* Large two-column section */
+    .flexbig {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .flexbig .Design {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .flexbig .Design img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        margin: 0;
+        border-radius: 8px;
+    }
+
+    /* Web section */
+    .webone {
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* align-items: center; */
+    }
+
+    .webone h5 {
+        font-size: 17px;
+    }
+
+    .webone button {
+        width: auto;
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .webtwo {
+        margin-top: 15px;
+    }
+
+    .webtwo h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .webtwo p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .webthree button {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+}
+
+
+/*     EXTRA SMALL PHONES  */
+@media (max-width: 480px) {
+
+    .Free-Courses {
+        margin: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .Free-Courses h3 {
+        font-size: 12px;
+    }
+
+    .contaner {
+        padding: 5px 10px;
+    }
+
+    .home2 a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .home3 button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .logo h4 {
+        font-size: 18px;
+    }
+
+    .Unlock1 h3 {
+        font-size: 19px;
+    }
+
+    .Unlock1 p {
+        font-size: 12px;
+    }
+
+    .Unlock2 button:nth-child(1),
+    .Unlock2 button:nth-child(2) {
+        font-size: 12px;
+        padding: 11px 8px;
+    }
+
+    .Benefits1 h3 {
+        font-size: 28px;
+    }
+
+    .Benefits22 {
+        padding: 15px;
+    }
+
+    .webtwo h3 {
+        font-size: 18px;
+    }
+
+    .webtwo p {
+        font-size: 13px;
+    }
+}
+
+    /* .Benefits1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+       */
