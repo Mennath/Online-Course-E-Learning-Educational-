@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
+      <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -24,17 +26,17 @@
             </svg>
         </div>
         <nav class="menu" id="menu">
-             <a href="./index.html">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./Courses.html">Courses</a>
             <a href="./Courses-open.html">Courses open</a>
-            <a href="#">About Us</a>
+            <a href="./About-as.html">About Us</a>
             <a href="#">Pricing</a>
             <a href="#">Contact</a>
         </nav>
 
         <div class="home3">
-            <a>Sign Up</a>
-            <button>Login</button>
+              <button><a href="./Sing-up.html">Sign Up</a> </button>
+            <button><a href="./Login.html">Login</a> </button>
 
             <button class="menu-btn" id="menuBtn" aria-label="Open menu">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -564,41 +566,7 @@
 
 
 
-     <script>
-        const menuBtn = document.getElementById("menuBtn");
-        const menu = document.getElementById("menu");
-
-        menuBtn.addEventListener("click", function () {
-            menu.classList.toggle("show");
-        });
-
-        const faqItems = document.querySelectorAll(".faq-item");
-
-        faqItems.forEach(item => {
-
-            const question = item.querySelector(".faq-question");
-            const button = item.querySelector(".faq-icon");
-
-            question.addEventListener("click", () => {
-
-                const isActive = item.classList.contains("active");
-
-                // Close all
-                faqItems.forEach(faq => {
-                    faq.classList.remove("active");
-                    faq.querySelector(".faq-icon").textContent = "+";
-                });
-
-                // Open clicked item
-                if (!isActive) {
-                    item.classList.add("active");
-                    button.textContent = "×";
-                }
-
-            });
-
-        });
-    </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
